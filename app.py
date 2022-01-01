@@ -6,7 +6,7 @@ import joblib
 import datetime as dt
 
 ## loading in trained model
-model = joblib.load('GradientBoost_Flight_Fair_Model')
+model = joblib.load('Models/GradientBoost_Flight_Fair_Model')
 
 @st.cache()
 def make_predictions(journey_date, journey_time, arrival_date, arrival_time, source, destination, stops, airline):
