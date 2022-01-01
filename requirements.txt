@@ -3,5 +3,5 @@ numpy>=1.9.2
 pandas>=0.19
 matplotlib>=1.4.3
 scikit-learn>=0.18
-joblib==0.15.1
+joblib
 xgboost>=1.4.0
